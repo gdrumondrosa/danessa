@@ -1,0 +1,20 @@
+.item {
+  width: 35vh;
+}
+
+.item p {
+  margin: 0.6vh 0vh;
+}
+
+.item-price {
+  display: flex;
+  gap: 2vh;
+  font-size: 1.8vh;
+  font-weight: 600;
+  color: #374151;
+}
+
+.item:hover {
+  transform: scale(1.05);
+  transition: 0.6s;
+}

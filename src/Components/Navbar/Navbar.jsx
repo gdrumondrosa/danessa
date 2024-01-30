@@ -14,10 +14,10 @@ const Navbar = () => {
         <img className='nav-img' src={logo} alt="" />
       </div>
       <ul className='nav-menu'>
-        <li onClick={() => {setMenu("inicio")}}><Link style={{textDecoration: 'none'}} to='/'>Início</Link>{menu === "inicio" ? <hr/> : <></>}</li>
-        <li onClick={() => {setMenu("capuccinos")}}><Link style={{textDecoration: 'none'}} to='/capuccinos'>Capuccinos</Link>{menu === "capuccinos" ? <hr/> : <></>}</li>
-        <li onClick={() => {setMenu("bomboccinos")}}><Link style={{textDecoration: 'none'}} to='/bomboccinos'>Bomboccinos</Link>{menu === "bomboccinos" ? <hr/> : <></>}</li>
-        <li onClick={() => {setMenu("outros")}}><Link style={{textDecoration: 'none'}} to='/outros'>Outros</Link>{menu === "outros" ? <hr/> : <></>}</li>
+        <li onClick={() => {setMenu("inicio")}}><Link style={{textDecoration: 'none', color: '#626262'}} to='/'>Início</Link>{menu === "inicio" ? <hr/> : <></>}</li>
+        <li onClick={() => {setMenu("capuccinos")}}><Link style={{textDecoration: 'none', color: '#626262'}} to='/capuccinos'>Capuccinos</Link>{menu === "capuccinos" ? <hr/> : <></>}</li>
+        <li onClick={() => {setMenu("bomboccinos")}}><Link style={{textDecoration: 'none', color: '#626262'}} to='/bomboccinos'>Bomboccinos</Link>{menu === "bomboccinos" ? <hr/> : <></>}</li>
+        <li onClick={() => {setMenu("outros")}}><Link style={{textDecoration: 'none', color: '#626262'}} to='/outros'>Outros</Link>{menu === "outros" ? <hr/> : <></>}</li>
       </ul>
       <div className='nav-login-cart'>
         <Link to='/login'><button>Login</button></Link>
