@@ -1,0 +1,78 @@
+.cartitems {
+  margin: 10vh 17vh;
+}
+
+.cartitems hr {
+  height: 0.3vh;
+  background: #e2e2e2;
+  border: 0;
+}
+
+.cartitems-format-main {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 7.5vh;
+  padding: 2vh 0vh;
+  color: #454545;
+  font-size: 1.8vh;
+  font-weight: 600;
+}
+
+.cartitems-format {
+  font-size: 1.7vh;
+  font-weight: 500;
+}
+
+.carticon-product-icon {
+  width: 6vh;
+}
+
+.cartitems-remove-icon {
+  width: 1.5vh;
+  margin: 0vh 4vh;
+  cursor: pointer;
+}
+
+.cartitems-quantity {
+  margin: 0vh 1vh;
+  width: 6.4vh;
+  height: 5vh;
+  border: 0.2vh solid #ebebeb;
+  background: #fff;
+}
+
+.cartitems-down {
+  display: flex;
+  margin: 10vh 0vh;
+}
+
+.cartitems-total {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20vh;
+  gap: 4vh;
+}
+
+.cartitems-total-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5vh 0vh;
+}
+
+.cartitems-total button {
+  width: 26.2vh;
+  height: 5.8vh;
+  outline: none;
+  border: none;
+  background: rgb(138, 63, 30);
+  color: #fff;
+  font-size: 1.6vh;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cartitems-promocode {
+  flex: 1;
+}
